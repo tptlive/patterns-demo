@@ -17,4 +17,13 @@ public class BookInfo {
   public Author getAuthor() {
     return author;
   }
+
+  @Override
+  public String toString() {
+    return "BookInfo{" +
+        "book=" + book +
+        ", author=" + author +
+        '}';
+  }
+
 }

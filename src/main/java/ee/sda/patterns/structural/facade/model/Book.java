@@ -24,4 +24,13 @@ public class Book {
     return authorName;
   }
 
+  @Override
+  public String toString() {
+    return "Book{" +
+        "name='" + name + '\'' +
+        ", isbn='" + isbn + '\'' +
+        ", authorName='" + authorName + '\'' +
+        '}';
+  }
+
 }

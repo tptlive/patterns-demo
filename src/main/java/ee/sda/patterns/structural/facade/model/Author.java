@@ -18,4 +18,11 @@ public class Author {
     return dateOfBirth;
   }
 
+  @Override
+  public String toString() {
+    return "Author{" +
+        "name='" + name + '\'' +
+        ", dateOfBirth='" + dateOfBirth + '\'' +
+        '}';
+  }
 }
