@@ -1,4 +1,4 @@
-package ee.sda.patterns.structural.adapter;
+package ee.sda.patterns.structural.adapter.example1;
 
 public class SquarePug {
 
@@ -11,5 +11,5 @@ public class SquarePug {
   public int getSideLength() {
     return sideLength;
   }
-  
+
 }
