@@ -16,11 +16,14 @@ public class Main {
     auditLogRequestFilter.nextFilter(authenticationRequestFilter);
 
     String url = "http://example.com";
+
     Map<String, String> headers = new HashMap<>();
     headers.put("Accept", "application/json");
     headers.put("Authorization", "Bearer 1234567890");
 
-    auditLogRequestFilter.handle(new Request(url, headers));
+    Request request = new Request(url, headers);
+
+    auditLogRequestFilter.handle(request);
   }
 
 }
